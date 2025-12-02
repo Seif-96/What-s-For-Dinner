@@ -1,0 +1,75 @@
+/* min-width */
+@media (min-width: 480px) {
+  /* dots of words */
+  .hero-section .p-ul-style .ul-style button {
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  /* header */
+  header nav .logo .logo-text h1 {
+    font-size: 1.5rem;
+  }
+  header nav .logo .logo-text p {
+    font-size: 0.875rem;
+  }
+  header nav .items {
+    line-height: 0;
+    border-top: 0;
+  }
+  header nav .items .text-span {
+    display: none;
+  }
+  header nav .items .item-2 img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  /* hero section */
+  /* right side */
+  .hero-section .right-side .text2-style h3 {
+    font-size: 2.25rem;
+  }
+  .hero-section .right-side .text2-style p {
+    font-size: 1rem;
+  }
+  .hero-section .p-ul-style .ul-style button {
+    font-size: 1rem;
+  }
+  .hero-section .left-side .bottom-info .info :nth-child(2) {
+    font-size: 0.875rem;
+  }
+  .hero-section .left-side .bottom-info .info :nth-child(3) {
+    font-size: 1rem;
+  }
+  /* tab-content tab3 */
+  .hero-section .tab-content .card3-style .perant .lines .span-style {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .hero-section .tab-content .card3-style .perant .lines .span2-style {
+    font-size: 1.25rem;
+  }
+  /* btn-style */
+  .hero-section .btn-style button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 1024px) {
+  /* hero-section */
+  .hero-section {
+    padding-block: 2rem;
+  }
+  .hero-section .left-side .p-top {
+    top: 4%;
+  }
+  .hero-section .container-fluid .right-side {
+    height: 46.875rem;
+    scrollbar-width: thin;
+    scrollbar-color: #fe886a4d transparent;
+  }
+  /* left-side */
+  .hero-section .left-side {
+    height: inherit;
+  }
+}
