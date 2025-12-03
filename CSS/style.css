@@ -41,11 +41,19 @@ header nav .logo .logo-text h1 {
   font-size: 1.125rem;
   font-weight: 700;
   color: #101828;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 5rem;
 }
 header nav .logo .logo-text p {
   font-size: 0.75rem;
   font-weight: 400;
   color: #6a7282;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 5rem;
 }
 header nav .items {
   color: #585f6e;

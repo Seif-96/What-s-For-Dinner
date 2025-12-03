@@ -1,4 +1,11 @@
 /* min-width */
+@media (min-width: 380px) {
+  /* headre */
+  header nav .logo .logo-text h1,
+  header nav .logo .logo-text p {
+    max-width: fit-content;
+  }
+}
 @media (min-width: 480px) {
   /* dots of words */
   .hero-section .p-ul-style .ul-style button {
