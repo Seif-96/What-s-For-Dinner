@@ -208,7 +208,10 @@ header nav .items .item-2 img {
   background-color: #ff6900;
   width: 1.5625rem;
   height: 1.5625rem;
+  min-width: 1.5625rem;
+  min-height: 1.5625rem;
 }
+
 /* tab2-style */
 .hero-section .tab-content .card2-style .perant .num-style {
   background-color: #ff6900;
