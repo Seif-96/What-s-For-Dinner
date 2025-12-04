@@ -1054,17 +1054,17 @@ function changeContent() {
   var randomIndex = Math.floor(Math.random() * items.length);
   var recipe = items[randomIndex];
   // --- Left Side ---
-  recipeRating.innerHTML = recipe.recipeRating;
-  recipeReviews.innerHTML = recipe.recipeReviews;
+  recipeRating.innerText = recipe.recipeRating;
+  recipeReviews.innerText = recipe.recipeReviews;
   recipeImg.src = recipe.img;
-  prepTime.innerHTML = recipe.prepTime;
-  cookTime.innerHTML = recipe.cookTime;
-  servings.innerHTML = recipe.servings;
+  prepTime.innerText = recipe.prepTime;
+  cookTime.innerText = recipe.cookTime;
+  servings.innerText = recipe.servings;
   // --- Right Side - Top ---
-  recipeLevel.innerHTML = recipe.recipeLevel;
-  recipeCategory.innerHTML = recipe.recipeCategory;
-  recipeTitle.innerHTML = recipe.recipeTitle;
-  recipeDesc.innerHTML = recipe.recipeDesc;
+  recipeLevel.innerText = recipe.recipeLevel;
+  recipeCategory.innerText = recipe.recipeCategory;
+  recipeTitle.innerText = recipe.recipeTitle;
+  recipeDesc.innerText = recipe.recipeDesc;
   // --- Warning ---
   if (recipe.warningVisible) {
     warning.classList.remove("d-none");
@@ -1078,49 +1078,49 @@ function changeContent() {
     tipText.classList.add("d-none");
   }
   // --- Ingredients (1-9) ---
-  ing1text.innerHTML = recipe.ing1text;
-  ing2text.innerHTML = recipe.ing2text;
-  ing3text.innerHTML = recipe.ing3text;
-  ing4text.innerHTML = recipe.ing4text;
-  ing5text.innerHTML = recipe.ing5text;
-  ing6text.innerHTML = recipe.ing6text;
-  ing7text.innerHTML = recipe.ing7text;
+  ing1text.innerText = recipe.ing1text;
+  ing2text.innerText = recipe.ing2text;
+  ing3text.innerText = recipe.ing3text;
+  ing4text.innerText = recipe.ing4text;
+  ing5text.innerText = recipe.ing5text;
+  ing6text.innerText = recipe.ing6text;
+  ing7text.innerText = recipe.ing7text;
   // ing8
   if (recipe.ing8textVisible !== false) {
     ing8text.parentElement.classList.remove("d-none");
-    ing8text.innerHTML = recipe.ing8text;
+    ing8text.innerText = recipe.ing8text;
   } else {
     ing8text.parentElement.classList.add("d-none");
   }
   // ing9
   if (recipe.ing9textVisible === true) {
     ing9text.parentElement.classList.remove("d-none");
-    ing9text.innerHTML = recipe.ing9text;
+    ing9text.innerText = recipe.ing9text;
   } else {
     ing9text.parentElement.classList.add("d-none");
   }
   // --- Instructions ---
-  instr1text.innerHTML = recipe.instr1text;
-  instr2text.innerHTML = recipe.instr2text;
-  instr3text.innerHTML = recipe.instr3text;
-  instr4text.innerHTML = recipe.instr4text;
-  instr5text.innerHTML = recipe.instr5text;
-  instr6text.innerHTML = recipe.instr6text;
+  instr1text.innerText = recipe.instr1text;
+  instr2text.innerText = recipe.instr2text;
+  instr3text.innerText = recipe.instr3text;
+  instr4text.innerText = recipe.instr4text;
+  instr5text.innerText = recipe.instr5text;
+  instr6text.innerText = recipe.instr6text;
   // --- Nutrition ---
-  calories.innerHTML = recipe.calories;
-  protein.innerHTML = recipe.protein;
-  carbs.innerHTML = recipe.carbs;
-  fat.innerHTML = recipe.fat;
-  fiber.innerHTML = recipe.fiber;
-  sodium.innerHTML = recipe.sodium;
+  calories.innerText = recipe.calories;
+  protein.innerText = recipe.protein;
+  carbs.innerText = recipe.carbs;
+  fat.innerText = recipe.fat;
+  fiber.innerText = recipe.fiber;
+  sodium.innerText = recipe.sodium;
   // --- Chef Tips ---
-  tip1Text.innerHTML = recipe.tip1Text;
-  tip2Text.innerHTML = recipe.tip2Text;
-  tip3Text.innerHTML = recipe.tip3Text;
-  tip4Text.innerHTML = recipe.tip4Text;
+  tip1Text.innerText = recipe.tip1Text;
+  tip2Text.innerText = recipe.tip2Text;
+  tip3Text.innerText = recipe.tip3Text;
+  tip4Text.innerText = recipe.tip4Text;
   // tip5Text
   if (recipe.tip5Text) {
-    tip5Text.innerHTML = recipe.tip5Text;
+    tip5Text.innerText = recipe.tip5Text;
     tipText.classList.remove("d-none");
   } else {
     tipText.classList.add("d-none");
